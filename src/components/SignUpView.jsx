@@ -22,7 +22,7 @@ const SignUpView = () => {
 
   return (
     <div className="SignUpView-Wrapper text-[#242845] bg-white rounded-[30px] flex justify-center items-center w-full h-full font-roboto-regular text-center">
-      <div className="Left-Side flex-1 flex flex-col px-10 py-20 gap-6 h-full w-full border border-red-500">
+      <div className="Left-Side flex-1 flex flex-col px-10 py-20 gap-6 h-full w-1/2">
         <h1 className="font-roboto-bold font-bold">Stay Updated!</h1>
         <h3 className="text-start">
           Join 60,000+ managers receiving monthly <br />
@@ -56,7 +56,7 @@ const SignUpView = () => {
           <SignUpButton />
         </form>
       </div>
-      <div className="Right-Side flex-1 p-5 h-full w-full border border-blue-500">
+      <div className="Right-Side flex-1 p-5 h-full w-1/2">
         <div className="image-wrapper overflow-hidden">
           <img className="h-full w-full" src={LeftPhoto} />
         </div>
